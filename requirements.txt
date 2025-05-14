@@ -31,3 +31,4 @@ pymongo==4.11.1
 chromadb==0.6.3
 chromadb-client==0.6.3
 faiss-cpu==1.10.0
+langchain-openai
