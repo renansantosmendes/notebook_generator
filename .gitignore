@@ -76,7 +76,7 @@ test-results/
 # dotenv environment variables file
 .env.local
 .env.*.local
-
+.env
 # Logs
 *.log
 
@@ -100,3 +100,6 @@ Desktop.ini
 *.bak
 *.swp
 *.xml
+.venv
+.idea
+misc.xml
