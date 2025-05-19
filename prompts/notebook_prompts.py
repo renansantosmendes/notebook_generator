@@ -6,7 +6,7 @@ no formato de subtópicos os tópicos apresentados a seguir para que uma lista
 de exercícios prática seja criada para a fixação do conteúdo da disciplina.
 
 Enumere os principais e mais importantes subtópicos para o conteúdo a seguir:
-{topics}
+{topic}
 """
 
 CONTENT_GENERATION_PROMPT = """

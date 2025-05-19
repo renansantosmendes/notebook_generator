@@ -48,3 +48,9 @@ class MarkdownCell(NotebookCell):
 class Content(BaseModel):
     markdown: MarkdownCell = Field(description='markdown text explaining the content')
     code: CodeCell = Field(description='python code to exemplify the content')
+
+class ContentSubTopic(BaseModel):
+    name: str = Field(description='subtopic name to generate content')
+
+class ContentTopics(BaseModel):
+    subtopics: list[ContentSubTopic] = Field(description="subtopics list of a given topic to generate the content")
